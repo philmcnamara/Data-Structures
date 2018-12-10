@@ -5,9 +5,9 @@ Building blocks are encapsulated Node objects of generic type E with mutators/ac
 
 ### Stack
 
-Implementation is a singly-linked list with sentinel node "top" 
+Implementation: singly-linked list with sentinel node "top" 
 
-Methods:
+**Methods:**
 
 - Push - Adds a new data element to the top of the stack
 - Pop - Removes and returns the top element from the stack
@@ -18,11 +18,21 @@ Methods:
 
 ### Queue
 
-Implementation is a singly-linked list with two sentinel nodes "head" and "tail"
+Implementation: singly-linked list with two sentinel nodes "head" and "tail"
 
-Methods:
+**Methods:**
 
 - Enqueue - Adds a new data element to the back of the queue
 - Dequeue - Removes and returns the element at the front of the queue
 - isEmpty - Returns True if the queue is empty, false otherwise
 - printQueue - Writes the contents of the queue front to back to standard output
+
+
+
+### TwoStackQueue
+
+Implementation: two stacks
+
+**Methods**: 
+
+Implements all the above Queue methods with two stacks
