@@ -1,11 +1,11 @@
 # Data-Structures
-This is a set of simple data structures created from scratch in Java for my CS coursework
+This is a set of simple data structures created from scratch in Java 10.0.2 for my CS coursework
 
 Building blocks are encapsulated Node objects of generic type E with mutators/accessors
 
 ### Stack
 
-Implementation: singly-linked list with sentinel node "top" 
+**Implementation:** singly-linked list with sentinel node "top" 
 
 **Methods:**
 
@@ -18,7 +18,7 @@ Implementation: singly-linked list with sentinel node "top"
 
 ### Queue
 
-Implementation: singly-linked list with two sentinel nodes "head" and "tail"
+**Implementation:** singly-linked list with two sentinel nodes "head" and "tail"
 
 **Methods:**
 
@@ -31,8 +31,26 @@ Implementation: singly-linked list with two sentinel nodes "head" and "tail"
 
 ### TwoStackQueue
 
-Implementation: two stacks
+**Implementation:** two stacks
 
 **Methods**: 
 
 Implements all the above Queue methods with two stacks
+
+
+
+### BinarySearchTree
+
+**Implementation:** Nodes of comparable types with four fields: data, left child pointer, right child pointer, and parent pointer
+
+All right children of a node are greater than the parent, and all left children are less than the parent
+
+Duplicate values are not supported
+
+**Methods:**
+
+- Insert - Searches the tree and inserts the new data at the proper location
+- Find - Searches the tree for a node whose data field is equal to the query, then returns it
+- Delete - Removes the target value from the tree and replaces it with its "successor", the minimum value of its right subtree
+- Traverse - Prints the contents of the tree to standard out by a "preorder", "inorder", or "postorder" traversal
+- getMin - Returns the minimum value of the subtree rooted at "top", used in "delete"
