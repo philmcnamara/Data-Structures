@@ -1,9 +1,9 @@
 # Data-Structures
 This is a set of simple data structures created from scratch in Java 10.0.2 for my CS coursework
 
-Building blocks are encapsulated Node objects of generic type E with mutators/accessors
+Building blocks are encapsulated Node objects of generic type E
 
-### Stack
+## Stack
 
 **Implementation:** singly-linked list with sentinel node "top" 
 
@@ -16,7 +16,7 @@ Building blocks are encapsulated Node objects of generic type E with mutators/ac
 
 
 
-### Queue
+## Queue
 
 **Implementation:** singly-linked list with two sentinel nodes "head" and "tail"
 
@@ -29,7 +29,7 @@ Building blocks are encapsulated Node objects of generic type E with mutators/ac
 
 
 
-### TwoStackQueue
+## TwoStackQueue
 
 **Implementation:** two stacks
 
@@ -39,7 +39,7 @@ Implements all the above Queue methods with two stacks
 
 
 
-### BinarySearchTree
+## BinarySearchTree
 
 **Implementation:** Nodes of comparable types with four fields: data, left child pointer, right child pointer, and parent pointer
 
